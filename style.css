@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    border: solid 1px #ffeeee;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #e4e4e4;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .container input {
+    margin: 10px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px #ffeeee;
+    border-bottom: solid 2px #ffeeee;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #btn {
+    background-color: #0077cc;
+    border: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #btn:hover {
+    background-color: #005ea6;
+  }
+  
+  .answer {
+    border: solid 1px #fff2f2;
+    padding: 10px 30px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #c9c4c4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .answer h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .answer span {
+    font-weight: bold;
+    color: #0077cc;
+  }
+  
